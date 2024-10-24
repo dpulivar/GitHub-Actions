@@ -37,7 +37,7 @@ if __name__ == "__main__":
 # test_basic_operations.py
 
 import pytest
-from basic_operations import arithmetic_operations, string_manipulation, list_operations
+from test_basic_python import arithmetic_operations, string_manipulation, list_operations
 
 def test_arithmetic_operations():
     result = arithmetic_operations(10, 5)
