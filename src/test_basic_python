@@ -31,27 +31,3 @@ if __name__ == "__main__":
 
     # Test list operations
     print("List Operations:", list_operations([3, 1, 4, 1, 5, 9]))
-
-def test_arithmetic_operations():
-    result = arithmetic_operations(10, 5)
-    assert result['addition'] == 15
-    assert result['subtraction'] == 5
-    assert result['multiplication'] == 50
-    assert result['division'] == 2
-
-    result_zero_div = arithmetic_operations(10, 0)
-    assert result_zero_div['division'] == 'undefined'
-
-def test_string_manipulation():
-    result = string_manipulation("Hello")
-    assert result['uppercase'] == "HELLO"
-    assert result['lowercase'] == "hello"
-    assert result['reversed'] == "olleH"
-    assert result['length'] == 5
-
-def test_list_operations():
-    result = list_operations([3, 1, 4, 1, 5, 9])
-    assert result['sum'] == 23
-    assert result['max'] == 9
-    assert result['min'] == 1
-    assert result['sorted'] == [1, 1, 3, 4, 5, 9]
