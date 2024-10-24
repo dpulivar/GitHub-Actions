@@ -18,4 +18,6 @@ jobs:
         run: pip install pytest
 
       - name: Run tests
-        run: python -m pytest src/test_basic_python.py
+        run: |
+          cd src
+          python -m pytest test_basic_python.py
