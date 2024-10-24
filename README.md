@@ -1,2 +1,2 @@
 # GitHub-Actions
-Implementing GitHub Actions by installing a basic python operation
+Implementing GitHub Actions by compiling a basic python operation
